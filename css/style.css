@@ -1,0 +1,144 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/*--header--*/
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  opacity: 0.9;
+  z-index: 1;
+
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+header nav {
+  padding-right: 30px;
+}
+header nav a {
+  color: seashell;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin-left: 15px;
+}
+/*--Body section--*/
+/*--mission--*/
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top:62px;
+}
+#mission {
+  background-image: url(../resources/mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mission .statement {
+  background-color: black;
+  opacity: 0.8;
+}
+.statement h2 {
+  margin: 10px auto;
+}
+.statement h4 {
+  margin: 10px auto;
+}
+/*--Tea section*/
+#tea {
+  display: flex;
+  flex-direction: column;
+
+}
+.displayImages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  zoom: 120%;
+}
+#tea img {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+#tea h4 {
+  line-height: 0.5;
+  margin-top: 10px;
+}
+/*--Locations section--*/
+#locations {
+  background-image: url(../resources/locations-background.jpg);
+  background-size: cover;
+  background-position: 10%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10px auto 50px auto;
+}
+
+#locations .statement {
+  background-color: black;
+  width: 300px;
+  opacity: 0.8;
+  margin: 20px auto 0 auto;
+}
+#locations .locationBoxes {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+#locations .locationBoxes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+  margin: 20px 20px;
+  padding: 10px;
+}
+#locations .locationBoxes h3 {
+  margin: 1em auto;
+}
+#locations .locationBoxes p {
+  margin: 1em auto;
+}
+/*--Contact--*/
+#contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*--footer--*/
+footer {
+  margin: 20px;
+  text-align: left;
+  padding-top: 10px;
+
+}
