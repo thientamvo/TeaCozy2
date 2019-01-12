@@ -89,27 +89,38 @@ main {
 }
 /*--Locations section--*/
 #locations {
-  background-image: url(../resources/locations-background.jpg);
-  background-size: cover;
-  background-position: 10%;
+  position: relative;
   width: 100%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
   padding: 10px auto 50px auto;
+  zoom: 120%;
+}
+#teaVideo {
+  margin: auto;
+  zoom: 80%;
 }
 
 #locations .statement {
+  position: absolute;
+  top: 30%;
+  left: 50%;
   background-color: black;
   width: 300px;
   opacity: 0.8;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0 -150px;
 }
 #locations .locationBoxes {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: auto auto auto -539.93px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  position: absolute;
 }
 #locations .locationBoxes div {
   display: flex;
