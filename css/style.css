@@ -6,6 +6,8 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 /*--header--*/
 header {
